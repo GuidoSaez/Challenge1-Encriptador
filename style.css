@@ -1,0 +1,175 @@
+body {
+    width: auto;
+    height: auto;
+    margin: 0px;
+    background-color: #E5E5E5;
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+}
+
+.logoAlura {
+    float: left;
+    padding-top: 20px;
+}
+
+.tituloPagina {
+    display: inline-block;
+    padding-left: 25%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: #0A3871;
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+}
+
+.left {
+    width: 70%;
+    height: 620px;
+    float: left;
+}
+
+.input-texto {
+    width: 800px;
+    height: 400px;
+    border: none;
+    outline: none;
+    margin-left:100px;
+    margin-top: 100px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0A3871;
+    background-color: #E5E5E5;
+}
+
+.input-texto::placeholder {
+    font-size: 22px;
+    color: #0A3871;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.p1 {
+    font-size: 16px;
+    margin-left: 110px;
+    text-decoration: underline;
+    
+}
+
+
+.botones {
+    width: 75%;
+    height: 80px;
+    float: left;
+    display: flex;
+    padding-left: 7%;
+    padding-top: 2%;
+}
+
+.encriptar {
+    display: inline;;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    margin-right: 30px;
+    background-color: #0A3871;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    border-color: #0A3871;
+    cursor: pointer;
+}
+
+.encriptar:hover {
+    background-color: #835d10;
+    transition: 2s;
+}
+
+.desencriptar {
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    display: inline;
+    padding-left: 10px;
+    background-color: #E5E5E5;
+    border-color: #0A3871;
+    font-size: 17px;
+    font-weight: bold;
+    color: #0A3871;
+    cursor: pointer;
+}
+
+.desencriptar:hover {
+    background-color: #835d10;
+    transition: 2s;
+    color: white;
+}
+
+.right {
+    width: 400px;
+    height: auto;
+    float: right;
+    margin-left: 40px;
+    border-radius: 24px;
+    background-color: white;
+    border: solid 1px;
+}
+
+.imgmuñeco {
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.mensaje {
+    width: 360px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    border: none;
+    outline: none;
+    
+}
+
+.copiar {
+    width: 280px;
+    height: 60px;
+    border-radius: 24px;
+    background-color: #E5E5E5;
+    border-color: #0A3871;
+    font-size: 17px;
+    font-weight: bold;
+    color: #0A3871;
+    margin-top: 10px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+.copiar:hover {
+    background-color: #835d10;
+    transition: 2s;
+    color: white;
+}
+
+footer {
+    height: 10px;
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.p2 {
+    font-size: 20px;
+    font-weight: bold;
+}
